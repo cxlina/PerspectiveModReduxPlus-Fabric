@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "perspectivemodreduxplus",
+  "version": "${version}",
+  "name": "Perspective Mod Redux+",
+  "description": "",
+  "authors": [
+    "Cxlina"
+  ],
+  "contact": {
+    "website": "https://github.com/Cxlina"
+  },
+  "license": "MIT",
+  "icon": "assets/perspectivemodreduxplus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.cxlina.perspectivemodreduxplus.Main"
+    ]
+  },
+  "mixins": [
+    "perspectivemodreduxplus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": ">=",
+    "minecraft": ">=1.18.1"
+  }
+}
